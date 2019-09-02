@@ -30,7 +30,7 @@ public class MatchAdapter extends RecyclerView.Adapter<MatchHolder> {
 
     @Override
     public int getItemCount() {
-        return 0;
+        return evenPasts.size();
     }
 
     public void setEvenPasts(ArrayList<EvenPast> evenPasts) {
